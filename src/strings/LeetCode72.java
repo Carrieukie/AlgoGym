@@ -46,6 +46,6 @@ public class LeetCode72 {
     }
 
     public static int minimum(int a, int b, int c) {
-        return Integer.min(a, Integer.min(b, c));
+        return Math.min(a, Math.min(b, c));
     }
 }
