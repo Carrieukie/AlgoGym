@@ -1,3 +1,5 @@
+package strings;
+
 public class LeetCode8 {
 //    public static void main(String[] args) {
 //

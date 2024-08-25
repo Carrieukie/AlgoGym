@@ -1,3 +1,5 @@
+package strings;
+
 public class Leetcode43 {
 //    public static void main(String[] args) {
 //        System.out.println(multiply("123", "456"));

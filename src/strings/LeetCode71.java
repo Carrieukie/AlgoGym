@@ -1,3 +1,5 @@
+package strings;
+
 import java.util.Stack;
 
 public class LeetCode71 {

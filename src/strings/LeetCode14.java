@@ -1,3 +1,5 @@
+package strings;
+
 public class LeetCode14 {
 //    public static void main(String[] args) {
 //        System.out.println(longestCommonPrefix(
