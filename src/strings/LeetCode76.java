@@ -36,8 +36,9 @@ public class LeetCode76 {
 
             while (counter == 0) { // This loop runs as long as we have a valid window
                 // Update the minimum length and head position if this window is smaller than the previous ones
-                if (right - left < minLength) {
-                    minLength = right - left;
+                int currentMin = right - left;
+                if (currentMin < minLength) {
+                    minLength = currentMin;
                     head = left; // Store the start position of the smallest valid window
                 }
 
