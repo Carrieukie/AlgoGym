@@ -1,14 +1,14 @@
 package strings;
 
 public class LeetCode79 {
-    public static void main(String[] args) {
-        char[][] array = {
-                {'A', 'B', 'C', 'E'},
-                {'S', 'F', 'C', 'S'},
-                {'A', 'D', 'E', 'E'}
-        };
-        System.out.println(exist(array, "SEE"));
-    }
+//    public static void main(String[] args) {
+//        char[][] array = {
+//                {'A', 'B', 'C', 'E'},
+//                {'S', 'F', 'C', 'S'},
+//                {'A', 'D', 'E', 'E'}
+//        };
+//        System.out.println(exist(array, "SEE"));
+//    }
 
     public static boolean exist(char[][] board, String word) {
 
