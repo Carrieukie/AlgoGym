@@ -4,16 +4,16 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Leetcode73 {
-    public static void main(String[] args) {
-        int[][] matrix = {
-                {0, 1, 2, 0},
-                {3, 4, 5, 2},
-                {1, 3, 1, 5}
-        };
-        setZeroes(matrix);
-
-        System.out.println(Arrays.deepToString(matrix));
-    }
+//    public static void main(String[] args) {
+//        int[][] matrix = {
+//                {0, 1, 2, 0},
+//                {3, 4, 5, 2},
+//                {1, 3, 1, 5}
+//        };
+//        setZeroes(matrix);
+//
+//        System.out.println(Arrays.deepToString(matrix));
+//    }
 
     public static void setZeroes(int[][] matrix) {
         ArrayList<Integer> rows = new ArrayList<>();

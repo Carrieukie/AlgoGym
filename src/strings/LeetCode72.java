@@ -3,12 +3,12 @@ package strings;
 import java.util.HashMap;
 
 public class LeetCode72 {
-    public static void main(String[] args) {
-        String X = "kitten", Y = "sitting";
-
-        System.out.println("The Levenshtein distance is " +
-                minDistance(X,Y));
-    }
+//    public static void main(String[] args) {
+//        String X = "kitten", Y = "sitting";
+//
+//        System.out.println("The Levenshtein distance is " +
+//                minDistance(X,Y));
+//    }
 
     public static int minDistance(String word1, String word2) {
         HashMap<String, Integer> memo = new HashMap<>();
