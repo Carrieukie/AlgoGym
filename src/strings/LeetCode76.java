@@ -21,21 +21,41 @@ public class LeetCode76 {
         int head = 0;
 
         while (right < s.length()) {
-            char endChar = s.charAt(right++);
-            if (map.containsKey(endChar)) {
-                if (map.put(endChar, map.get(endChar) - 1) > 0) counter--;
+            char rightChar = s.charAt(right++);
+            if (map.containsKey(rightChar)) {
+                // Decrement the frequency of the character in the map
+                int newCount = map.get(rightChar) - 1;
+                map.put(rightChar, newCount);
+
+                // If the character is still needed (i.e., its count was positive), decrease the counter
+                if (newCount >= 0) {
+                    counter--;
+                }
             }
 
-            while (counter == 0) { // valid window
+
+            while (counter == 0) { // This loop runs as long as we have a valid window
+                // Update the minimum length and head position if this window is smaller than the previous ones
                 if (right - left < minLength) {
-                    minLength = right - (head = left);
+                    minLength = right - left;
+                    head = left; // Store the start position of the smallest valid window
                 }
 
+                // Move the left pointer to narrow the window
                 char startChar = s.charAt(left++);
+
+                // If the character at the left pointer was part of the target string, adjust the map
                 if (map.containsKey(startChar)) {
-                    if (map.put(startChar, map.get(startChar) + 1) == 0) counter++; // make it invalid
+                    // Increment the frequency of the character in the map since it is leaving the window
+                    int newCount = map.put(startChar, map.get(startChar) + 1);
+
+                    // If the character count becomes positive, it means the window is no longer valid
+                    if (newCount > 0) {
+                        counter++; // We now need this character again to satisfy the condition
+                    }
                 }
             }
+
         }
 
         return minLength == Integer.MAX_VALUE ? "" : s.substring(head, head + minLength);
