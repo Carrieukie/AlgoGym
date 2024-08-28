@@ -4,9 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LeetCode87 {
-    public static void main(String[] args) {
-        System.out.println(isScramble("great", "rgeat", new HashMap<>()));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(isScramble("great", "rgeat", new HashMap<>()));
+//    }
 
 
     public static boolean isScramble(String s1, String s2, Map<String, Boolean> mp) {

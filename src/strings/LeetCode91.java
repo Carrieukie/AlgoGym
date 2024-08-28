@@ -3,9 +3,9 @@ package strings;
 import java.util.Arrays;
 
 public class LeetCode91 {
-    public static void main(String[] args) {
-        System.out.println(numDecodings("11106"));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(numDecodings("11106"));
+//    }
 
     public static int numDecodings(String s) {
         int[] dp = new int[s.length()];
