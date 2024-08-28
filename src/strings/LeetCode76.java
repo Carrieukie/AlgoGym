@@ -4,9 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LeetCode76 {
-    public static void main(String[] args) {
-        System.out.println(minWindow("kdasdasdasdasfmkdl", "dsd"));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(minWindow("kdasdasdasdasfmkdl", "dsd"));
+//    }
 
     public static String minWindow(String s, String t) {
         Map<Character, Integer> map = new HashMap<>();
