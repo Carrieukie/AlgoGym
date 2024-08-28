@@ -3,9 +3,9 @@ package strings;
 import java.util.Arrays;
 
 public class LeetCode115 {
-    public static void main(String[] args) {
-        System.out.println(numDistinct("rabbbit", "rabbit"));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(numDistinct("rabbbit", "rabbit"));
+//    }
 
     public static int numDistinct(String s, String t) {
         int[][] dp = new int[s.length() + 1][t.length() + 1];
