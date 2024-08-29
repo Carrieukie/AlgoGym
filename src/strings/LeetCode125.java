@@ -1,9 +1,9 @@
 package strings;
 
 public class LeetCode125 {
-    public static void main(String[] args) {
-        System.out.println(isPalindrome("OP"));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(isPalindrome("OP"));
+//    }
 
     public static boolean isPalindrome(String s) {
         StringBuilder builder = new StringBuilder();
