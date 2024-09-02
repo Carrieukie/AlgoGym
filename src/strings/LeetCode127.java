@@ -4,16 +4,16 @@ import java.util.*;
 
 public class LeetCode127 {
 
-    public static void main(String[] args) {
-        String beginWord = "hit";
-        String endWord = "cog";
-        ArrayList<String> wordList = new ArrayList<>(List.of("hot", "dot", "dog", "lot", "log", "cog"));
-
-        List<List<String>> ladders = findLadders(beginWord, endWord, wordList);
-        for (List<String> ladder : ladders) {
-            System.out.println(ladder);
-        }
-    }
+//    public static void main(String[] args) {
+//        String beginWord = "hit";
+//        String endWord = "cog";
+//        ArrayList<String> wordList = new ArrayList<>(List.of("hot", "dot", "dog", "lot", "log", "cog"));
+//
+//        List<List<String>> ladders = findLadders(beginWord, endWord, wordList);
+//        for (List<String> ladder : ladders) {
+//            System.out.println(ladder);
+//        }
+//    }
 
     private static Map<String, ArrayList<String>> generateGraph(List<String> wordList) {
         Map<String, ArrayList<String>> result = new LinkedHashMap<>();
