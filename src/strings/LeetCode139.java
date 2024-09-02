@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.Map;
 
 public class LeetCode139 {
-    public static void main(String[] args) {
-        System.out.println(wordBreak("catsandog", new ArrayList<>(List.of("cats", "dog", "sand", "and", "cat"))));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(wordBreak("catsandog", new ArrayList<>(List.of("cats", "dog", "sand", "and", "cat"))));
+//    }
 
     public static boolean wordBreak(String s, List<String> wordDict) {
         return wordBreak(s, wordDict, new HashMap<>());
