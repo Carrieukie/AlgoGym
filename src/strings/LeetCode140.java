@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LeetCode140 {
-    public static void main(String[] args) {
-        System.out.println(wordBreak("catsanddog", new ArrayList<>(List.of("cat", "cats", "and", "sand", "dog"))));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(wordBreak("catsanddog", new ArrayList<>(List.of("cat", "cats", "and", "sand", "dog"))));
+//    }
 
     public static List<String> wordBreak(String s, List<String> wordDict) {
         List<String> ans = new ArrayList<>();
