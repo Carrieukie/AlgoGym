@@ -1,6 +1,6 @@
 package strings;
 
-public class LeetCode8 {
+public class LeetCode10 {
 //    public static void main(String[] args) {
 //
 //    }
