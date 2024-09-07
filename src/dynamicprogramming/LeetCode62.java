@@ -1,7 +1,5 @@
 package dynamicprogramming;
 
-import java.util.HashMap;
-
 public class LeetCode62 {
     public static void main(String[] args) {
         System.out.println(uniquePaths(30000,7000));
