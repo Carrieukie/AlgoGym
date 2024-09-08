@@ -1,9 +1,9 @@
 package strings;
 
 public class LeetCode165 {
-    public static void main(String[] args) {
-        System.out.println(compareVersion("1.2", "1.3.9"));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(compareVersion("1.2", "1.3.9"));
+//    }
 
     public static int compareVersion(String version1, String version2) {
         int i = 0, j = 0;
@@ -29,4 +29,5 @@ public class LeetCode165 {
             j++;
         }
         return 0;
-    }}
+    }
+}
