@@ -1,6 +1,6 @@
 package strings;
 
-public class Leetcode151 {
+public class LeetCode151 {
 //    public static void main(String[] args) {
 //        System.out.println(reverseWords("the sky is blue"));
 //    }

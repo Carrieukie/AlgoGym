@@ -5,16 +5,16 @@ import java.time.YearMonth;
 import java.util.Scanner;
 
 public class Calendar {
-    public static void main(String[] args) {
-        // Test harness
-        Scanner input = new Scanner(System.in);
-        System.out.print("Please enter a month between 1 and 12 (e.g. 5): ");
-        int m = input.nextInt();
-
-        System.out.print("Please enter a full year (e.g. 2018): ");
-        int y = input.nextInt();
-        printMonth(y, m);
-    }
+//    public static void main(String[] args) {
+//        // Test harness
+//        Scanner input = new Scanner(System.in);
+//        System.out.print("Please enter a month between 1 and 12 (e.g. 5): ");
+//        int m = input.nextInt();
+//
+//        System.out.print("Please enter a full year (e.g. 2018): ");
+//        int y = input.nextInt();
+//        printMonth(y, m);
+//    }
 
     static void printMonth(int year, int month) {
         YearMonth ym = YearMonth.of(year, month);

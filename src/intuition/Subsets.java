@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Subsets {
-    public static void main(String[] args) {
-        System.out.println(generateSubsets("aab"));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(generateSubsets("aab"));
+//    }
 
     public static List<String> generateSubsets(String input) {
         List<String> subsets = new ArrayList<>();

@@ -1,9 +1,9 @@
 package dynamicprogramming;
 
 public class LeetCode62 {
-    public static void main(String[] args) {
-        System.out.println(uniquePaths(30000,7000));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(uniquePaths(30000,7000));
+//    }
 
     public static long uniquePaths(int m, int n) {
         // Create a 2D array to store the number of unique paths to each cell
