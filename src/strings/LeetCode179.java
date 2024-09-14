@@ -5,10 +5,9 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class LeetCode179 {
-    public static void main(String[] args) {
-//        System.out.println(largestNumber(new int[]{3, 30, 34, 5, 9}));
-        System.out.println("a".compareTo("b"));
-    }
+//    public static void main(String[] args) {
+//        System.out.println("a".compareTo("b"));
+//    }
 
     public static String largestNumber(int[] nums) {
         Queue<String> pq = new PriorityQueue<>((a, b) -> (b + a).compareTo(a + b));
