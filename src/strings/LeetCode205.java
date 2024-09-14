@@ -3,9 +3,9 @@ package strings;
 import java.util.HashMap;
 
 public class LeetCode205 {
-    public static void main(String[] args) {
-        System.out.println(isIsomorphic("edgg","addd"));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(isIsomorphic("edgg","addd"));
+//    }
 
     public static boolean isIsomorphic(String s, String t) {
         if (s.length() != t.length()){
