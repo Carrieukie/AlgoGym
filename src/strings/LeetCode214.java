@@ -1,9 +1,9 @@
 package strings;
 
 public class LeetCode214 {
-    public static void main(String[] args) {
-        System.out.println(shortestPalindrome("daa"));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(shortestPalindrome("daa"));
+//    }
 
     public static String shortestPalindrome(String s) {
         StringBuilder r = new StringBuilder(s).reverse();
