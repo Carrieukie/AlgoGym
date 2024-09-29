@@ -4,24 +4,24 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class LeetCode23 {
-    public static void main(String[] args) {
-        // Create an array to hold 5 sorted linked lists
-        ListNode[] linkedLists = new ListNode[5];
-
-        // Generate 5 sorted linked lists with random values
-        Random random = new Random(5);
-        for (int i = 0; i < linkedLists.length; i++) {
-            linkedLists[i] = generateSortedList(random.nextInt(10) + 10); // Each list will have a length between 10 and 19
-        }
-
-        // Print the linked lists to verify
-        for (int i = 0; i < linkedLists.length; i++) {
-            System.out.print("List " + (i + 1) + ": ");
-            printList(linkedLists[i]);
-        }
-        System.out.print("Merged List :");
-        printList(mergeKLists(linkedLists));
-    }
+//    public static void main(String[] args) {
+//        // Create an array to hold 5 sorted linked lists
+//        ListNode[] linkedLists = new ListNode[5];
+//
+//        // Generate 5 sorted linked lists with random values
+//        Random random = new Random(5);
+//        for (int i = 0; i < linkedLists.length; i++) {
+//            linkedLists[i] = generateSortedList(random.nextInt(10) + 10); // Each list will have a length between 10 and 19
+//        }
+//
+//        // Print the linked lists to verify
+//        for (int i = 0; i < linkedLists.length; i++) {
+//            System.out.print("List " + (i + 1) + ": ");
+//            printList(linkedLists[i]);
+//        }
+//        System.out.print("Merged List :");
+//        printList(mergeKLists(linkedLists));
+//    }
 
     public static ListNode mergeKLists(ListNode[] lists) {
         ListNode listNode = null;

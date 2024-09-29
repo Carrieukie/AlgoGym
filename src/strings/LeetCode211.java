@@ -3,9 +3,9 @@ package strings;
 import java.util.HashMap;
 
 public class LeetCode211 {
-    public static void main(String[] args) {
-
-    }
+//    public static void main(String[] args) {
+//
+//    }
 }
 
 class WordDictionary {

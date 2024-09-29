@@ -1,14 +1,14 @@
 package divideandconquer;
 
 public class LeetCode4 {
-    public static void main(String[] args) {
-        System.out.println(
-                findMedianSortedArrays(
-                        new int[]{1, 3,},
-                        new int[]{2}
-                )
-        );
-    }
+//    public static void main(String[] args) {
+//        System.out.println(
+//                findMedianSortedArrays(
+//                        new int[]{1, 3,},
+//                        new int[]{2}
+//                )
+//        );
+//    }
 
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int left = 0, right = 0, steps = 0, lastMoved = 0;
